@@ -1,0 +1,57 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(#bde0fe, #d8f3dc);
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #6d01a8;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.prescription-card {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+    border-left: 8px solid #6d01a8;
+}
+
+.prescription-card p {
+    margin: 8px 0;
+    color: #333;
+    font-weight: 500;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6d01a8;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4b0075;
+}
+
+a.back-link {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+}
+
+a.back-link:hover {
+    text-decoration: underline;
+}

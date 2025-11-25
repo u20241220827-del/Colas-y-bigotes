@@ -1,0 +1,79 @@
+        body {
+            background: linear-gradient(#bde0fe, #d8f3dc);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        .card-container {
+            max-width: 700px;
+            margin: auto;
+            background: #ffffff;
+            padding: 35px 45px;
+            border-radius: 20px;
+            box-shadow: 0px 12px 35px rgba(0,0,0,0.15);
+        }
+
+        h2 {
+            text-align: center;
+            color: #6d01a8;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        label {
+            font-weight: 600;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            transition: border 0.2s ease-in-out;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #6d01a8;
+            outline: none;
+            box-shadow: 0 0 5px rgba(109, 1, 168, 0.3);
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: #6d01a8;
+            color: white;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: 0.2s ease;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #53007e;
+            transform: scale(1.03);
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            font-weight: 600;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }

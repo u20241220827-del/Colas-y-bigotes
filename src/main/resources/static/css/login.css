@@ -1,0 +1,79 @@
+        body {
+            background: linear-gradient(#bfe9ff, #d8f3dc);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .login-card {
+            background: white;
+            width: 100%;
+            max-width: 420px;
+            padding: 35px 40px;
+            border-radius: 18px;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .brand-logo {
+            width: 120px;       /* AUMENTADO */
+            height: 120px;      /* AUMENTADO */
+            object-fit: contain;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #6d01a8;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: 600;
+            color: #444;
+            margin-top: 12px;
+        }
+
+        input {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #b6b6b6;
+            font-size: 1rem;
+        }
+
+        button {
+            width: 100%;
+            background-color: #a168e6;
+            color: white;
+            border: none;
+            padding: 12px;
+            margin-top: 15px;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        button:hover {
+            background-color: #8a4fd1;
+        }
+
+        .message {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .text-small {
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+
+        a {
+            color: #6d01a8;
+            font-weight: 600;
+        }

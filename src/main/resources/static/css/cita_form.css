@@ -1,0 +1,88 @@
+        body {
+            background: linear-gradient(135deg, #bfe9ff, #d8f3dc);
+            min-height: 100vh;
+            padding: 40px 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .card-form {
+            background: rgba(255,255,255,0.80);
+            backdrop-filter: blur(6px);
+            padding: 35px;
+            width: 100%;
+            max-width: 550px;
+            border-radius: 20px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+            border: 1px solid #ffffffaa;
+        }
+
+        h2 {
+            color: #6d01a8;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        label {
+            color: #4b4b4b;
+            font-weight: 600;
+        }
+
+        .form-select, .form-control {
+            border-radius: 12px;
+            padding: 10px;
+        }
+
+        .btn-primary-custom {
+            width: 100%;
+            background-color: #a168e6;
+            border: none;
+            padding: 12px;
+            font-size: 1.1rem;
+            border-radius: 12px;
+            color: white;
+            transition: 0.3s;
+            margin-top: 15px;
+        }
+
+        .btn-primary-custom:hover {
+            background-color: #8a4fd1;
+            transform: scale(1.03);
+        }
+
+        .btn-volver {
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 12px;
+            padding: 10px;
+            border-radius: 12px;
+            background-color: #95a5a6;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn-volver:hover {
+            background-color: #7f8c8d;
+            transform: scale(1.02);
+        }
+
+        .top-logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .top-logo img {
+            width: 90px;
+        }
+
+        .error-msg {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }

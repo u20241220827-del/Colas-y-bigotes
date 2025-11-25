@@ -1,0 +1,72 @@
+        body {
+            background: linear-gradient(#bde0fe, #d8f3dc);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .container-card {
+            max-width: 700px;
+            margin: auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0px 12px 35px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 700;
+            color: #6d01a8;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 25px;
+        }
+
+        .btn-custom {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 12px;
+            border: none;
+            transition: transform .1s ease-in-out, background .2s;
+        }
+
+        .btn-custom:hover {
+            transform: scale(1.03);
+        }
+
+        .btn-register {
+            background: #40916c;
+            color: white;
+        }
+
+        .btn-register:hover {
+            background: #2d6a4f;
+        }
+
+        .btn-pets {
+            background: #6d01a8;
+            color: white;
+        }
+
+        .btn-pets:hover {
+            background: #53007e;
+        }
+
+        .logout-btn {
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-weight: 600;
+            border-radius: 12px;
+        }

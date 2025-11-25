@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Crear Prescripción</title>
+
+  <link rel="stylesheet" th:href="@{/css/prescripcion_form.css}">
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <h2>Crear Prescripción</h2>
+
+    <form th:action="@{/prescripciones/guardar}" method="post">
+
+        <input type="hidden" name="citaId" th:value="${cita.id}">
+
+        <label>Mascota</label>
+        <input type="text" th:value="${cita.mascota.nombre}" disabled>
+
+        <label>Veterinario</label>
+        <input type="text" th:value="${cita.veterinario.nombreCompleto}" disabled>
+
+        <label>Producto</label>
+        <select name="productoId" required>
+            <option value="" disabled selected>Seleccione un producto</option>
+            <option th:each="p : ${productos}" th:value="${p.id}" th:text="${p.nombre}"></option>
+        </select>
+
+        <label>Cantidad</label>
+        <input type="number" name="cantidad" min="1" required>
+
+        <label>Indicaciones</label>
+        <textarea name="indicaciones" rows="4" required></textarea>
+
+        <button type="submit">Guardar Prescripción</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

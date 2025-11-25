@@ -1,0 +1,73 @@
+        body {
+            background: linear-gradient(#bde0fe, #d8f3dc);
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #6d01a8;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            text-align: center;
+            color: #333;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .card-container {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .admin-card {
+            background: white;
+            border-radius: 18px;
+            padding: 25px;
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+            margin-bottom: 20px;
+            border-left: 8px solid #6d01a8;
+            transition: 0.2s ease;
+        }
+
+        .admin-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 15px 35px rgba(0,0,0,0.18);
+        }
+
+        .admin-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .admin-list li {
+            margin-bottom: 15px;
+        }
+
+        .admin-list li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            display: block;
+            padding: 10px 15px;
+            border-radius: 10px;
+            background-color: #f0f0f0;
+            transition: 0.2s;
+        }
+
+        .admin-list li a:hover {
+            background-color: #e0d4f7;
+            color: #6d01a8;
+        }
+
+        .logout-btn {
+            display: block;
+            width: 100%;
+            margin-top: 25px;
+        }

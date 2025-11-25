@@ -1,0 +1,79 @@
+    body {
+        background: linear-gradient(#bfe9ff, #d8f3dc);
+        min-height: 100vh;
+        margin: 0;
+        padding: 40px 20px;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .panel-card {
+        max-width: 1100px;
+        margin: auto;
+        background: white;
+        padding: 30px 40px;
+        border-radius: 18px;
+        box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+    }
+
+    h1 {
+        color: #6d01a8;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        color: #444;
+        font-weight: 600;
+        margin-top: 25px;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 15px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    thead tr {
+        background: #6d01a8;
+        color: white;
+    }
+
+    th, td {
+        padding: 14px;
+    }
+
+    tr:nth-child(even) {
+        background: #f4f4f4;
+    }
+
+    .estado {
+        font-weight: bold;
+        color: #6d01a8;
+    }
+
+    .acciones a {
+        text-decoration: none;
+        padding: 8px 14px;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: white;
+        display: inline-block;
+    }
+
+    .btn-estado {
+        background: #e67e22 !important;
+    }
+
+    .btn-detalle {
+        background: #8e44ad !important;
+    }
+
+    .logout-btn {
+        margin-top: 25px;
+        border-radius: 10px;
+        padding: 10px 18px;
+        font-weight: 600;
+    }

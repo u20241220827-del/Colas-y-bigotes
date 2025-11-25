@@ -1,0 +1,68 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(#bde0fe, #d8f3dc);
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #6d01a8;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.vet-card {
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+    border-left: 8px solid #6d01a8;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: 600;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    border-radius: 8px 8px 0 0;
+}
+
+td {
+    background-color: #fff;
+    padding: 10px;
+    border-top: none;
+    color: #555;
+    border-radius: 0 0 8px 8px;
+}
+
+tr:hover td {
+    background-color: #f9f9f9;
+}
+
+a.back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+}
+
+a.back-link:hover {
+    text-decoration: underline;
+}
